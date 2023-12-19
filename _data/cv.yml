@@ -1,68 +1,71 @@
-personal_info:
-  full_name: Jaekwang (Jae) Shin
-  dob: 16th October 1990
-  languages: [English, Korean, Japanese]
-  contact:
-    email: paloaltojae@gmail.com
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jaekwang Shin
+    - name: Date of Birth
+      value: 16th October 1990
+    - name: Languages
+      value: English, Korean, Japanese
 
-education:
-  - title: Ph.D. in Mechanical Engineering
-    institution: University of Michigan – Ann Arbor, MI
-    year: Jan 2017 – May 2021
-    details:
-      - GPA: 4.00/4.00
-      - Thesis: Investigation of Incremental Sheet Forming Using an Advanced Multiscale Numerical Approach
-  - title: Graduate Data Science Certificate
-    institution: Michigan Institute for Data Science (MIDAS)
-    year: Sep 2020 – May 2021
-  - title: Master of Science in Mechanical Engineering
-    institution: University of Michigan – Ann Arbor, MI
-    year: Sep 2015 – Dec 2016
-    details:
-      - GPA: 4.00/4.00
-      - Thesis: Prediction of Incremental Sheet Forming Process Using the Finite Element Method
-  - title: Bachelor of Science in Mechanical Engineering
-    institution: Pohang University of Science and Technology (POSTECH)
-    year: Mar 2009 – Feb 2015
-    details:
-      - GPA: 3.59/4.30
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Michigan, Ann Arbor, MI, USA
+      year: 2022
+      description:
+        - Finite Element Analysis using Abaqus
+        - Mechanics of Material
+    - title: Master of Science in Mechanical Engineering
+      institution: University of Michigan, Ann Arbor, MI, USA
+      year: 2016
+      description:
+        - Thesis: Prediction of Incremental Sheet Forming Process Using the Finite Element Method
+    - title: Bachelor of Science in Mechanical Engineering
+      institution: Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea
+      year: 2015
+      description:
+        - Specialized in Mechanical Design and Manufacturing
 
-experience:
-  - title: Battery Product Development Intern
-    institution: Apple Inc.
-    year: May 2021 – Aug 2021
-    details:
-      - Battery product development focusing on finite element modeling
-      - Optimization scheme development for forming simulation
-      - Material properties analysis of battery pouch material
-  - title: Graduate Student Research Assistant (Ph.D. Candidate)
-    institution: University of Michigan, Ann Arbor, MI
-    year: Sep 2015 – May 2021
-    details:
-      - Project: Agile Fabrication of Sheet Metal Components with Assured Properties
-      - Focus: Multiscale Modeling and Machine Learning in Incremental Forming Process
+- title: Experience
+  type: time_table
+  contents:
+    - title: Battery Product Development Intern
+      institution: Apple Inc.
+      year: 2021
+      description:
+        - Development of optimization scheme for finite element forming simulation
+        - Material properties analysis of battery pouch material
+    - title: Graduate Student Research Assistant
+      institution: University of Michigan, Ann Arbor, MI, USA
+      year: 2015 - 2021
+      description:
+        - Topic: Agile Fabrication of Sheet Metal Components with Assured Properties
+        - Focus: Multiscale Modeling and Machine Learning in Incremental Forming Process
 
-skills:
-  - Machine Learning: Python /Keras/Tensorflow
-  - Computer Language: [Python, Matlab, Labview]
-  - Finite Element Software: [ABAQUS, LS DYNA, ANSYS, HyperWorks, ADINA, COMSOL, DEALII]
-  - CAD Software: [Solidworks, NX, Pro-Engineer]
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Details of awards, patents, and publications available upon request
 
-honors_awards:
-  - year: 2021
-    items: [Details of awards, patents, and publications available upon request]
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Sheet Metal Forming
+      items: 
+        - Finite Element Modeling
+        - Manufacturing Optimization
+    - title: Machine Learning in Engineering
+      items:
+        - Data-Driven Approaches
+        - Multiscale Numerical Methods
 
-academic_interests:
-  - title: Sheet Metal Forming
-    items:
-      - Finite Element Modeling
-      - Manufacturing Optimization
-  - title: Machine Learning in Engineering
-    items:
-      - Data-Driven Approaches
-      - Multiscale Numerical Methods
-
-other_interests:
-  - Hobbies: [Climbing, Bike, Running, Computer Games]
+- title: Other Interests
+  type: list
+  contents:
+    - Hobbies: Climbing, Bike
 
 # End of CV
