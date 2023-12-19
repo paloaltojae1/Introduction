@@ -1,59 +1,68 @@
-# Jaekwang (Jae) Shin's CV in YAML format
-
 personal_info:
   full_name: Jaekwang (Jae) Shin
-  address: 3645 Green Brier Blvd. 135B, Ann Arbor, MI, 48105
-  phone: 734-780-5901
-  email: jkshin@umich.edu
+  dob: 16th October 1990
   languages: [English, Korean, Japanese]
+  contact:
+    email: paloaltojae@gmail.com
 
 education:
-  - degree: Ph.D. in Mechanical Engineering
+  - title: Ph.D. in Mechanical Engineering
     institution: University of Michigan – Ann Arbor, MI
-    gpa: 4.00/4.00
-    dates: Jan 2017 – May 2021
-    thesis_title: Investigation of Incremental Sheet Forming Using an Advanced Multiscale Numerical Approach
-  - degree: Graduate Data Science Certificate
+    year: Jan 2017 – May 2021
+    details:
+      - GPA: 4.00/4.00
+      - Thesis: Investigation of Incremental Sheet Forming Using an Advanced Multiscale Numerical Approach
+  - title: Graduate Data Science Certificate
     institution: Michigan Institute for Data Science (MIDAS)
-    dates: Sep 2020 – May 2021
-  - degree: Master of Science in Mechanical Engineering
+    year: Sep 2020 – May 2021
+  - title: Master of Science in Mechanical Engineering
     institution: University of Michigan – Ann Arbor, MI
-    gpa: 4.00/4.00
-    dates: Sep 2015 – Dec 2016
-    thesis_title: Prediction of Incremental Sheet Forming Process Using the Finite Element Method
-  - degree: Bachelor of Science in Mechanical Engineering
+    year: Sep 2015 – Dec 2016
+    details:
+      - GPA: 4.00/4.00
+      - Thesis: Prediction of Incremental Sheet Forming Process Using the Finite Element Method
+  - title: Bachelor of Science in Mechanical Engineering
     institution: Pohang University of Science and Technology (POSTECH)
-    gpa: 3.59/4.30
-    dates: Mar 2009 – Feb 2015
+    year: Mar 2009 – Feb 2015
+    details:
+      - GPA: 3.59/4.30
 
-professional_experience:
+experience:
   - title: Battery Product Development Intern
-    company: Apple Inc.
-    dates: May 2021 – Aug 2021
-    responsibilities: 
-      - Development of optimization scheme for finite element forming simulation
-      - Analysis and optimization of process parameters and tooling geometry
-      - Understanding and prediction of battery pouch material properties
-      - Categorization of damaged cross-section images of batteries
-      - Modeling battery behavior under loading
+    institution: Apple Inc.
+    year: May 2021 – Aug 2021
+    details:
+      - Battery product development focusing on finite element modeling
+      - Optimization scheme development for forming simulation
+      - Material properties analysis of battery pouch material
   - title: Graduate Student Research Assistant (Ph.D. Candidate)
-    department: Department of Mechanical Engineering, University of Michigan, Ann Arbor, MI
-    dates: Sep 2015 – May 2021
-    responsibilities: 
-      - Agile Fabrication of Sheet Metal Components with Assured Properties (Ph.D. Thesis)
-      - Multiscale Modeling (Crystal Plasticity) of Incremental Forming Process Using Machine Learning
-      - Evaluation of Obstacle Difficulty for Autonomous Vehicles Using Machine Learning
+    institution: University of Michigan, Ann Arbor, MI
+    year: Sep 2015 – May 2021
+    details:
+      - Project: Agile Fabrication of Sheet Metal Components with Assured Properties
+      - Focus: Multiscale Modeling and Machine Learning in Incremental Forming Process
 
 skills:
-  machine_learning: Python /Keras/Tensorflow
-  computer_language: [Python, Matlab, Labview]
-  finite_element_software: [ABAQUS, LS DYNA, ANSYS, HyperWorks, ADINA, COMSOL, DEALII]
-  cad_software: [Solidworks, NX, Pro-Engineer]
+  - Machine Learning: Python /Keras/Tensorflow
+  - Computer Language: [Python, Matlab, Labview]
+  - Finite Element Software: [ABAQUS, LS DYNA, ANSYS, HyperWorks, ADINA, COMSOL, DEALII]
+  - CAD Software: [Solidworks, NX, Pro-Engineer]
 
-additional_info:
-  awards_patents_publications: Available Upon Request
-  scholarships: 2
-  patents: 2 (Filed as co-inventor)
-  journal_papers_conference_proceedings: 8 (5 as the first author)
+honors_awards:
+  - year: 2021
+    items: [Details of awards, patents, and publications available upon request]
+
+academic_interests:
+  - title: Sheet Metal Forming
+    items:
+      - Finite Element Modeling
+      - Manufacturing Optimization
+  - title: Machine Learning in Engineering
+    items:
+      - Data-Driven Approaches
+      - Multiscale Numerical Methods
+
+other_interests:
+  - Hobbies: [Climbing, Bike, Running, Computer Games]
 
 # End of CV
