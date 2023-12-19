@@ -15,8 +15,8 @@
       institution: University of Michigan, Ann Arbor, MI, USA
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Finite Element Analysis using Abaqus
+        - Mechanics of Material
         - title: Description 3.
           contents:
             - Sub-description 1.
@@ -31,8 +31,8 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
+    - title: Battery Hardware Engineer
+      institution: Apple Inc.
       year: 1933 - 1955
       description:
         - Description 1.
