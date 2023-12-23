@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D. in Mechanical Engineering
       institution: University of Michigan, Ann Arbor, MI, USA
       year: 2022
       description:
@@ -21,7 +21,7 @@
       institution: University of Michigan, Ann Arbor, MI, USA
       year: 2016
       description:
-        - Thesis: Prediction of Incremental Sheet Forming Process Using the Finite Element Method
+        - Thesis: [Prediction of Incremental Sheet Forming Process Using the Finite Element Method]
     - title: Bachelor of Science in Mechanical Engineering
       institution: Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea
       year: 2015
