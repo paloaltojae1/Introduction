@@ -45,11 +45,9 @@
         - <u>Focus:</u>  Multiscale Modeling and Machine Learning in Incremental Forming Process
 
 - title: Honors and Awards
-  type: time_table
+  type: nested_list
   contents:
-    - year: 2021
-      items: 
-        - Details of awards, patents, and publications available upon request
+    - title: Details of awards, patents, and publications available upon request
 
 - title: Academic Interests
   type: nested_list
