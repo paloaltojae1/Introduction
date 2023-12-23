@@ -21,7 +21,7 @@
       institution: University of Michigan, Ann Arbor, MI, USA
       year: 2016
       description:
-        - Thesis: [Prediction of Incremental Sheet Forming Process Using the Finite Element Method]
+        - <u>Thesis:</u> Prediction of Incremental Sheet Forming Process Using the Finite Element Method
     - title: Bachelor of Science in Mechanical Engineering
       institution: Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea
       year: 2015
@@ -41,8 +41,8 @@
       institution: University of Michigan, Ann Arbor, MI, USA
       year: 2015 - 2021
       description:
-        - Topic: Agile Fabrication of Sheet Metal Components with Assured Properties
-        - Focus: Multiscale Modeling and Machine Learning in Incremental Forming Process
+        - <u>Topic:</u> Agile Fabrication of Sheet Metal Components with Assured Properties
+        - <u>Focus:</u>  Multiscale Modeling and Machine Learning in Incremental Forming Process
 
 - title: Honors and Awards
   type: time_table
@@ -66,6 +66,6 @@
 - title: Other Interests
   type: list
   contents:
-    - Hobbies: Climbing, Bike
+    - <u>Hobbies:</u> Climbing, Bike
 
 # End of CV
